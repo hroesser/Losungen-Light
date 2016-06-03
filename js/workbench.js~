@@ -1,0 +1,30 @@
+jQuery.fn.extend({
+	weekdays:  ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"],
+	months:  ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+
+	getMyDate: function () {
+			var date = new Date(),
+				hour = date.getHours();
+			return {
+				day: this.weekdays[date.getDay()],
+				date: date.getDate(),  // ? 3.
+				// YYYY-MM-DD
+				dateString: date.getFullYear() 	+'-'+ this.appendZero( date.getMonth()+1) +'-'+ this.appendZero(date.getDate()),
+				month: this.months[date.getMonth()],
+				hour: this.appendZero(hour),
+				minute: this.appendZero(date.getMinutes()),
+				//second: appendZero(date.getSeconds())
+			};
+	},
+	appendZero: function(num) {
+			if (num < 10) {
+				return "0" + num;
+			}
+			return num;
+	},
+    getDateObj: function () {
+		return this.getMyDate();
+		// use t.day, t.month, t.hour, t.minute  , t.date 
+		//return 'fn hello World ' + t.day ;
+    }
+});

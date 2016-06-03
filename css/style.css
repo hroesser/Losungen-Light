@@ -1,0 +1,47 @@
+			body	{
+				background: #0055aa;
+				color: #ffffff;
+				font-family: 'Open Sans', sans-serif;
+ 				text-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+			}
+			#clock {
+				display: block;
+				margin-bottom: 20px;
+
+			}
+			#time {
+				font-family: 'Source Sans Pro', sans-serif;
+				font-size: 40px;
+			    font-weight: normal;
+			    text-decoration: none;
+			    text-transform: uppercase;
+			    padding: 0;
+			    margin: 0;
+			}
+			#date{
+				 
+				font-size: 12px;
+			}
+			.losungen {
+				display: block;
+				width: 85%;
+				border: 1px solid #ffffff;
+				border-radius: 10px;
+				padding: 10px;
+				margin: auto;
+
+			}
+			.los-headline {
+				font-size: 26px;
+				margin-bottom: 35px;
+				text-align: center;
+			}
+			.los-text .los-lehrtext {
+				text-align: left;
+				font-size: 13px;
+				font-family: Verdana;
+			}
+			.los-vers {
+				text-align: right;
+				font-size: 14px;
+			}
