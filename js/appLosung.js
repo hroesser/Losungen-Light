@@ -1,22 +1,6 @@
-/*
-	*** Resolution *** 
-	SMARTPHONE: 320 px
-		=>  die Box kann 30% höher ausfallen 
-	Tablet: 
-		$(window).resize(function() {
-				  $('#winwidth').html(  $(window).width()	) ;
-
-		});	
-
-
-
-  */      
+   
   		'use strict';
-
-  		// Trennung von HTML Angaben (*.html, width, height) von jQ Logik 
-//<button id="close">Close Dialog</button> 
-
-		$(function(){
+		$(function()	{
 			var imprint = $('#imprint'); 
 			$(".popup").click(function(event){
 				event.preventDefault();
@@ -24,19 +8,17 @@
 			});
 			$("#close").click(function(event){
 				event.preventDefault();
-				imprint.hide();   // .close()  ?
-			});
+				imprint.hide(); 
+			});	
 		});
-
 
         $(document).ready(function()	{
 			var imprint = $('#imprint'); 
-			//imprint.hide();
+			imprint.hide();
        		
-       		//$('#winwidth').html( $(window).width() );
 			$('#clock').simpleClock();
 			// YYYY-MM-DD
-			var dateObj =	$().getDateString() ;
+			var dateObj =	$().getDateString();
 			var regExSlashToI = "/\/(.+?)\//";  // to replace /this/ with <i>this</i>
 
 		   	$.ajax({
