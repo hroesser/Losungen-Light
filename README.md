@@ -2,7 +2,7 @@
 A simple HTML5 app displaying the "Losungen 2016" with the focus on mobile devices like Smartphone, Tablet. mobile first. 
 To be deployed locally on your htdocs folder. A web deployment is prepared.
 
-![screenshot](screenshots/screen.jpg "Nodejs chat")
+![screenshot](screenshots/responsive.png "Nodejs chat")
 
 "Losungen 2016" is a collection of daily bible verses for prayer and spiritual inspiration. Available primarily as book. Besides an app they offer an XML file containing these verses yearly for free download. This is what I used here. I wanted a lean solution on my Smartphone, no app.
 
