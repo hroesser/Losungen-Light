@@ -13,8 +13,26 @@
   */      
   		'use strict';
 
-        $(document).ready(function()	{
+  		// Trennung von HTML Angaben (*.html, width, height) von jQ Logik 
+//<button id="close">Close Dialog</button> 
 
+		$(function(){
+			var imprint = $('#imprint'); 
+			$(".popup").click(function(event){
+				event.preventDefault();
+				imprint.show(); 
+			});
+			$("#close").click(function(event){
+				event.preventDefault();
+				imprint.hide();   // .close()  ?
+			});
+		});
+
+
+        $(document).ready(function()	{
+			var imprint = $('#imprint'); 
+			//imprint.hide();
+       		
        		//$('#winwidth').html( $(window).width() );
 			$('#clock').simpleClock();
 			// YYYY-MM-DD
