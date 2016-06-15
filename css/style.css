@@ -4,6 +4,14 @@
 				font-family: 'Open Sans', sans-serif;
  				text-shadow: 3px 3px 4px rgba(0,0,0,0.3);
 			}
+
+			/* #### Date Box #### */
+			#date-wrapper {
+				position: relative;
+				width: 180px;
+				height: 95px;
+				float: left;
+			}
 			#clock {
 				display: block;
 				margin-bottom: 20px;
@@ -18,10 +26,12 @@
 			    padding: 0;
 			    margin: 0;
 			}
-			#date{
-				 
+			#date {
 				font-size: 12px;
 			}
+
+
+			/* #### Main #### */
 			.losungen {
 				display: block;
 				width: 85%;
@@ -46,11 +56,46 @@
 				font-size: 14px;
 			}
 
+			/* #### Menue  #### */
+			#menu {
+				position: inherit;
+				top: 30px;	
+				right: 30px;
+				float: right;
+			}
+
+			.btn-iconbar {
+				background: rgba(0, 0, 0, 0) url("../img/iconbar35.png") no-repeat scroll 0 0;
+				display: inline-block;
+				height: 35px;
+				width: 35px;
+				position: relative;
+				border: 0;
+				opacity: 1;
+				cursor: pointer;
+			}
+
+			#imprint {
+				text-align: center;
+			}
+			#imprint > .head {
+				font-size: 1.2em;
+				font-weight: bold;
+				padding: 0;
+			}
+			#imprint p {
+				font-size: 0.85em;
+			}
+			#imprint .text {
+				font-size: 0.55em;
+				line-height: 130%;
+			}
+
 			dialog {  
 			    width: 100%;  
 			    height: 100%; 
 			    background: #e8e8e8;
-			    font-family: sans-serif;
+			    font-family: Open Sans;
 			    padding: 10px;
 	  			box-sizing: border-box;
 	  			outline: 0 none;
@@ -58,24 +103,49 @@
 	  			z-index: 20;
 	  			top: 0;
 	  			left: 0;
-	  			color: darkblue;
+	  			color: #0055aa;  
 	  			text-shadow: none;
 	  			opacity: 0.95;
 			}
+
+			dialog a {
+				color: #0055aa;
+
+			}
+			dialog a:hover {
+				color: #ff33cc;
+			}
+
 			.git-octocat {
 				background: rgba(0, 0, 0, 0) url("../img/GitHub-Mark-20px.png") no-repeat scroll 0 0;
 				display: inline-block;
 				height: 20px;
 				width: 20px;
 			}
+			.close {
+				background: rgba(0, 0, 0, 0) url("../img/close_window30.png") no-repeat scroll 0 0;
+				display: inline-block;
+				height: 30px;
+				width: 30px;
+				right: 5%;
+				top: 5%;
+				position: absolute;
+				border:0;
+				opacity: 0.3;
+				cursor: pointer;
+			}
+
 			a.git-span {
 				bottom: 5px;
 				position: relative;
 				left: 5px;
+				text-decoration: none;
+				
+
 			} 
 
 			a.git-span:hover {
-				color: darkblue;
+				
 			} 
 
 			#imprint {
@@ -92,4 +162,8 @@
 			#imprint .text {
 				font-size: 0.55em;
 				line-height: 130%;
+			}
+
+			.clear {
+				clear: both;
 			}

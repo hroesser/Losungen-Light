@@ -13,13 +13,19 @@
 	</head>
 	<body>
 	<div id="Losung" class="losungen"> 
-		<div id="clock">
-		<div id="time"></div>
-	      <div id="date"></div>
-	      <div id="menu" >
-	      	<a href="" data-width="600" data-height="400" title="Imprint" class="popup"></a>  
-	      </div>
+
+		<div id="date-wrapper">
+			<div id="clock">
+				<div id="time"></div>
+			    <div id="date"></div>
+			</div>
    	    </div>
+		<div id="menu" >
+	   		<button class="btn-iconbar" id="btn-iconbar" ></button>
+	   		<!-- a href="" data-width="600" data-height="400" title="Imprint" class="popup"></a  -->  
+		</div>
+		<div class="clear" ></div>
+
 		<div class="los-headline" id="los-headline" >Die Losung heute</div>
 		<div class="los-text"	id="los-text" ></div>  
 		<div class="los-vers"	id="los-vers" style="margin-bottom: 20px;"></div>
@@ -34,6 +40,7 @@
 	    <p>
 	    	<a class="git-octocat" href="https://git.io/vomM2"></a>
 	    	<span><a class="git-span" href="https://git.io/vomM2">https://git.io/vomM2</a></span>
+			<button class="close" id="close" ></button>
 	    </p>  
 	    <p class="text">
 	    	<a class="" href="http://www.losungen.de/download/">http://www.losungen.de/download/</a><br>
@@ -45,7 +52,6 @@
 		Für alle diese Links gilt:
 		Wir betonen ausdrücklich, dass wir keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten haben. Daher distanzieren wir uns hiermit ausdrücklich von allen Inhalten aller gelinkten Seiten. Diese Erklärung gilt für alle heute und zukünftig auf dieser Website angebrachten Links und für alle Inhalte der Seiten. 
 		</p>  	    
-	    <button id="close">Close Dialog</button> 
 	</dialog>  
 
 	<!-- div style="font-size: 30px;"> width: <span id="winwidth"></span></div  -->

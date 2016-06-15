@@ -2,7 +2,7 @@
   		'use strict';
 		$(function()	{
 			var imprint = $('#imprint'); 
-			$(".popup").click(function(event){
+			$("#btn-iconbar").click(function(event){
 				event.preventDefault();
 				imprint.show(); 
 			});
@@ -33,13 +33,13 @@
 					losText = losText.replace(  /\/(.+?)\//  , '<i>$1</i><br />' ); // replace /
 					losText = losText.replace(  /#(.+?)#/  , '<b>$1</b>' ); 	// replace #
 					$('#los-text').html( losText );		
-					$('#los-vers').html( losungHeute.children( "Losungsvers").text()  );
+					$('#los-vers').html( losungHeute.children( "Losungsvers").text() );
 
 					var lehrText =  losungHeute.children( "Lehrtext").text() ;
 					lehrText = lehrText.replace(  /\/(.+?)\//  , '<i>$1</i><br />' ); 	// replace /
 					lehrText = lehrText.replace(  /#(.+?)#/  , '<b>$1</b>' ); 	// replace #
 					$('#los-lehrtext').html( lehrText );
-					$('#los-lehrvers').html( losungHeute.children( "Lehrtextvers" ).text()  );
+					$('#los-lehrvers').html( losungHeute.children( "Lehrtextvers" ).text() );
   	
 			    },
 			    error: function() {
