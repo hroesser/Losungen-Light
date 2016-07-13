@@ -14,11 +14,11 @@ To be deployed locally on your htdocs folder. A web deployment is prepared.
  - Apache
  - git
 
-### Technical
-jQuery is fetching the "Losungen 2016" as XML file (under data/ ) and placing the verses to specific DOM nodes.  
+### Basic functions
+jQuery is fetching the "Losungen 2016" as XML file (under data/ ) and placing the verses to specific DOM nodes.
 
 ### Third party
-I used "simpleClock" *(see license.md)* and placed it on top/left
+I used "simpleClock" *(see license.md)* to drive the four-digit clock/date and placed it on top/left
 
 ### Install
 If you want to deploy it locally: 
@@ -42,4 +42,3 @@ My gruntfile defines a buildprocess with *jshint, uglify* for JS, *cssmin* for C
  - no reason for LESS. my CSS is lean
  - *simpleClock.js* already minified but perhaps you want to dev. on it
 
- God bless
