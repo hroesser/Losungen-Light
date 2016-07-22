@@ -1,5 +1,5 @@
 ## Losungen Light
-A simple HTML5 app displaying the "Losungen 2016" with the focus on mobile devices like Smartphone, Tablet. mobile first. 
+A simple HTML5 app displaying the "Losungen 2016" with the focus on mobile devices like Smartphone, Tablet. Mobile first. 
 To be deployed locally on your htdocs folder. A web deployment is prepared.
 
 ![screenshot](screenshots/responsive.png "Nodejs chat")
@@ -43,5 +43,5 @@ If you want to develop on the Losungen:
 For the purpose you want to fork and develop or design your own solution, I prepared an environment with Grunt.
 My gruntfile defines a buildprocess with *jshint, uglify* for JS, *cssmin* for CSS since that would make sense here. You can easily start from that.
  - no reason for LESS. my CSS is lean
- - *simpleClock.js* already minified but perhaps you want to dev. on it
+ - *simpleClock.js* already minified but perhaps you want to develop on it
 
