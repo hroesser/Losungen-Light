@@ -21,19 +21,22 @@ jQuery is fetching the "Losungen 2016" as XML file (under data/ ) and placing th
 I used "simpleClock" *(see license.md)* to drive the four-digit clock/date and placed it on top/left
 
 ### Install
-If you want to deploy it locally: 
-	`cd /var/www/html`
-	`mkdir losungen`
-	`cd losungen`
-	`git clone https://github.com/hroesser/Losungen-Light.git . `
-
+```
+cd /var/www/html
+mkdir losungen
+cd losungen
+git clone https://github.com/hroesser/Losungen-Light.git . 
+```
 Surely you can just d/l the zip, unzip and deploy.
 
 Then point your browser to:
-	`http://localhost/losungen/`
-	or
-	`http://127.0.0.1/losungen/`
-
+```
+http://localhost/losungen/
+```
+or
+```
+http://127.0.0.1/losungen/
+```
 If you want to develop on the Losungen:
 
 ### Development
