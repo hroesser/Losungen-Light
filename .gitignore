@@ -3,3 +3,6 @@ node_modules
 *~
 environment.txt
 *sublime*
+/nbproject/private/
+/nbproject/project.properties
+/nbproject/project.xml

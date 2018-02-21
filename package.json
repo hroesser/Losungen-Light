@@ -1,4 +1,3 @@
-
 {
   "name": "Losungen",
   "description": "Hermann Rösser - Simple app for Herrnhuter 'Losungen'",
@@ -10,7 +9,7 @@
   "license": "See license file license.md",
   "author": "Hermann Rösser",
   "devDependencies": {
-    "grunt": "~0.4.5",
+    "grunt": "^0.4.5",
     "grunt-contrib-csslint": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-jshint": "~0.10.0",

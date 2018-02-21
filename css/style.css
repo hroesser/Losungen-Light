@@ -1,176 +1,161 @@
-			body	{
-				background: #0055aa;
-				color: #ffffff;
-				font-family: 'Open Sans', sans-serif;
- 				text-shadow: 3px 3px 4px rgba(0,0,0,0.3);
-			}
+    body	{
+        background: #0055aa;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+    }
 
-			/* #### Date Box #### */
-			#date-wrapper {
-				position: relative;
-				width: 180px;
-				height: 95px;
-				float: left;
-			}
-			#clock {
-				display: block;
-				margin-bottom: 20px;
+    /* #### Date Box #### */
+    #date-wrapper {
+            position: relative;
+            width: 180px;
+            height: 95px;
+            float: left;
+    }
+    #clock {
+            display: block;
+            margin-bottom: 20px;
 
-			}
-			#time {
-				font-family: 'Source Sans Pro', sans-serif;
-				font-size: 40px;
-			    font-weight: normal;
-			    text-decoration: none;
-			    text-transform: uppercase;
-			    padding: 0;
-			    margin: 0;
-			}
-			#date {
-				font-size: 12px;
-			}
+    }
+    #time {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 40px;
+        font-weight: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+    }
+    #date {
+        font-size: 12px;
+    }
 
+    /* #### Main #### */
+    .losungen {
+            display: block;
+            width: 85%;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto;
+            max-width: 750px;
+    }
+    .los-headline {
+            font-size: 26px;
+            margin-bottom: 35px;
+            text-align: center;
+    }
+    .los-text .los-lehrtext {
+            text-align: left;
+            font-size: 13px;
+            font-family: Verdana;
+    }
+    .los-vers {
+            text-align: right;
+            font-size: 14px;
+    }
+    .los-vers > a {
+        color: #ffffff ;
+    }
+    .los-vers > a:hover {
+        color: #ff33cc;
+    }
+    
+    /* #### Menue  #### */
+    #menu {
+            position: inherit;
+            top: 30px;	
+            right: 30px;
+            float: right;
+    }
 
-			/* #### Main #### */
-			.losungen {
-				display: block;
-				width: 85%;
-				border: 1px solid #ffffff;
-				border-radius: 10px;
-				padding: 10px;
-				margin: auto;
-				max-width: 750px;
-			}
-			.los-headline {
-				font-size: 26px;
-				margin-bottom: 35px;
-				text-align: center;
-			}
-			.los-text .los-lehrtext {
-				text-align: left;
-				font-size: 13px;
-				font-family: Verdana;
-			}
-			.los-vers {
-				text-align: right;
-				font-size: 14px;
-			}
+    .btn-iconbar {
+        background: rgba(0, 0, 0, 0) url("../img/iconbar35.png") no-repeat scroll 0 0;
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        position: relative;
+        border: 0;
+        opacity: 1;
+        cursor: pointer;
+    }
 
-			/* #### Menue  #### */
-			#menu {
-				position: inherit;
-				top: 30px;	
-				right: 30px;
-				float: right;
-			}
+    #imprint {
+        text-align: center;
+         width: 100%;  
+        height: 100%; 
+        background: #e8e8e8;
+        padding: 10px;
+        box-sizing: border-box;
+        outline: 0 none;
+        position: fixed;
+        z-index: 20;
+        top: 0;
+        left: 0;
+        color: #0055aa;  
+        text-shadow: none;
+        opacity: 0.95;
 
-			.btn-iconbar {
-				background: rgba(0, 0, 0, 0) url("../img/iconbar35.png") no-repeat scroll 0 0;
-				display: inline-block;
-				height: 35px;
-				width: 35px;
-				position: relative;
-				border: 0;
-				opacity: 1;
-				cursor: pointer;
-			}
+    }
+    #imprint > .head {
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 0;
+    }
+    #imprint p {
+        font-size: 1.3em;
+    }
+    #imprint .text {
+        font-size: 0.8em;
+        line-height: 130%;
+    }
 
-			#imprint {
-				text-align: center;
-			}
-			#imprint > .head {
-				font-size: 1.2em;
-				font-weight: bold;
-				padding: 0;
-			}
-			#imprint p {
-				font-size: 0.85em;
-			}
-			#imprint .text {
-				font-size: 0.55em;
-				line-height: 130%;
-			}
+    #imprint > div  {
+        display: block;
+        width: 85%;
+        padding: 10px;
+        margin: auto;
+        max-width: 400px;
+    }
 
-			dialog {  
-			    width: 100%;  
-			    height: 100%; 
-			    background: #e8e8e8;
-			    padding: 10px;
-	  			box-sizing: border-box;
-	  			outline: 0 none;
-	  			position: fixed;
-	  			z-index: 20;
-	  			top: 0;
-	  			left: 0;
-	  			color: #0055aa;  
-	  			text-shadow: none;
-	  			opacity: 0.95;
-			}
+    #imprint a {
+        color: #0055aa;
 
-			dialog > div  {
-				display: block;
-				width: 85%;
-				padding: 10px;
-				margin: auto;
-				max-width: 400px;
-			}
+    }
+    #imprint a:hover {
+        color: #ff33cc;
+    }
 
-			dialog a {
-				color: #0055aa;
+    .git-octocat {
+        background: rgba(0, 0, 0, 0) url("../img/GitHub-Mark-20px.png") no-repeat scroll 0 0;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+    }
+    .close {
+        background: rgba(0, 0, 0, 0) url("../img/close_window30.png") no-repeat scroll 0 0;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        right: 5%;
+        top: 5%;
+        position: absolute;
+        border:0;
+        opacity: 0.3;
+        cursor: pointer;
+    }
 
-			}
-			dialog a:hover {
-				color: #ff33cc;
-			}
+    a.git-span {
+        bottom: 5px;
+        position: relative;
+        left: 5px;
+        text-decoration: none;
+    } 
 
-			.git-octocat {
-				background: rgba(0, 0, 0, 0) url("../img/GitHub-Mark-20px.png") no-repeat scroll 0 0;
-				display: inline-block;
-				height: 20px;
-				width: 20px;
-			}
-			.close {
-				background: rgba(0, 0, 0, 0) url("../img/close_window30.png") no-repeat scroll 0 0;
-				display: inline-block;
-				height: 30px;
-				width: 30px;
-				right: 5%;
-				top: 5%;
-				position: absolute;
-				border:0;
-				opacity: 0.3;
-				cursor: pointer;
-			}
+    a.git-span:hover {
 
-			a.git-span {
-				bottom: 5px;
-				position: relative;
-				left: 5px;
-				text-decoration: none;
-				
+    } 
 
-			} 
-
-			a.git-span:hover {
-				
-			} 
-
-			#imprint {
-				text-align: center;
-			}
-			#imprint > .head {
-				font-size: 1.2em;
-				font-weight: bold;
-				padding: 0;
-			}
-			#imprint p {
-				font-size: 0.85em;
-			}
-			#imprint .text {
-				font-size: 0.62em;
-				line-height: 130%;
-			}
-
-			.clear {
-				clear: both;
-			}
+   .clear {
+            clear: both;
+    }

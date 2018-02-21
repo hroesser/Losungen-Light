@@ -4,7 +4,7 @@ To be deployed locally on your htdocs folder. A web deployment is prepared.
 
 ![screenshot](screenshots/responsive.png "Nodejs chat")
 
-"Losungen 2016" is a collection of daily bible verses for prayer and spiritual inspiration. Available primarily as book. Besides an app they offer an XML file containing these verses yearly for free download. This is what I used here. I wanted a lean solution on my Smartphone, no app.
+"Losungen Light" is a collection of daily bible verses for prayer and spiritual inspiration. Available primarily as book. Besides an app they offer an XML file containing these verses yearly for free download. This is what I used here. I wanted a lean solution on my Smartphone, no app.
 
 ### Basic requirements
  - Apache
