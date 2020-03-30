@@ -27,7 +27,7 @@ mkdir losungen
 cd losungen
 git clone https://github.com/hroesser/Losungen-Light.git . 
 ```
-Surely you can just d/l the zip, unzip and deploy.
+Or you can just d/l the zip, unzip and deploy.
 
 Then point your browser to:
 ```
@@ -41,7 +41,15 @@ If you want to develop on the Losungen:
 
 ### Development
 For the purpose you want to fork and develop or design your own solution, I prepared an environment with Grunt.
-My gruntfile defines a buildprocess with *jshint, uglify* for JS, *cssmin* for CSS since that would make sense here. You can easily start from that.
+My gruntfile defines a buildprocess with *jshint, uglify* for JS, *cssmin* for CSS since that would make sense here. 
+For Grunt you will need NPM:
+
+```
+npm install     // install dependencies locally
+grunt           // run all grunt-tasks defined in your correct Gruntfile 
+```
+
+You can easily start from that.
  - no reason for LESS. my CSS is lean
  - *simpleClock.js* already minified but perhaps you want to develop on it
 
