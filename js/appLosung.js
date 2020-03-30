@@ -13,7 +13,6 @@
     });
 
     $(document).ready(function()	{
-        var LosungsFile="./data/LosungenFree2018.xml";
         var imprint = $("#imprint"); 
         var bibleServer="https://www.bibleserver.com/text/LUT/";
         var Losvers="";
@@ -23,7 +22,10 @@
         $('#clock').simpleClock();
         // YYYY-MM-DD
         var dateObj = $().getDateString();
+        var LosungsFile="./data/LosungenFree"+ dateObj.fullYear +".xml";
         var regExSlashToI = "/\/(.+?)\//";  // to replace /this/ with <i>this</i>
+
+
 
         $.ajax({
             type: "GET",
