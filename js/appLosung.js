@@ -23,9 +23,9 @@
         // YYYY-MM-DD
         var dateObj = $().getDateString();
         var LosungsFile="./data/LosungenFree"+ dateObj.fullYear +".xml";
+        $('#imprintFullYear').html(dateObj.fullYear); 
+        
         var regExSlashToI = "/\/(.+?)\//";  // to replace /this/ with <i>this</i>
-
-
 
         $.ajax({
             type: "GET",
