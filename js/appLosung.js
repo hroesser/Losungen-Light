@@ -14,7 +14,7 @@ $(function () {
 
 $(document).ready(function () {
     var imprint = $("#imprint");
-    var bibleServer = "https://www.bibleserver.com/text/LUT/";
+    var bibleServer = "https://www.bibleserver.com/text/Ne%C3%9C%0A/";
     var Losvers = "";
     var Lehrtextvers = "";
 
@@ -39,7 +39,7 @@ $(document).ready(function () {
             Losvers = losungHeute.children("Losungsvers").text();
 
             $('#los-text').html(losText);
-            $('#los-vers').html('<a href="' + bibleServer + Losvers + '" target="_blank">' + Losvers + "</a>");
+            $('#los-vers').html( '<a href="' + encodeURI(bibleServer + Losvers) + '" target="_blank">' + Losvers + "</a>");
 
             var lehrText = losungHeute.children("Lehrtext").text();
             lehrText = lehrText.replace(/\/(.+?)\//, '<i>$1</i><br />'); // replace /
@@ -47,7 +47,7 @@ $(document).ready(function () {
             Lehrtextvers = losungHeute.children("Lehrtextvers").text();
 
             $('#los-lehrtext').html(lehrText);
-            $('#los-lehrvers').html('<a href="' + bibleServer + Lehrtextvers + '" target="_blank">' + Lehrtextvers + "</a>");
+            $('#los-lehrvers').html('<a href="' + encodeURI(bibleServer + Lehrtextvers) + '" target="_blank">' + Lehrtextvers + "</a>");
         },
         error: function () {
             alert("couldn't load XML file");
